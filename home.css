@@ -8,7 +8,7 @@ body {
 }
 
 .portada {
-    background-image: url(images/portada3.jpg);
+    background-image: url(images/PORTADA3.jpg);
     height: 700px;
     display: flex;
     flex-direction: column;
@@ -33,6 +33,7 @@ body {
 
     
 }
+
 
 
 #equipo {
@@ -92,6 +93,44 @@ body {
 }
 
 
+/* .boton-curso2 {
+    width: 200px;
+    height: 40px;
+    border: none;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    border: 1px solid;
+ 
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #2196F3;
+    transition: ease-out 0.3s;
+    font-size: 1rem;
+    outline: none;
+}
+
+.bg {
+    background: white;
+    padding: 8px 14px;
+}
+ */
+
+.boton-curso2
+{
+    border: none;
+    width: 200px;
+    height: 40px;
+    padding: 4px;
+    display: inline-block;
+    background: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+}
+.bg
+{
+    background: #ffffff;
+    padding: 4px 10px;
+   
+}
+
+
 
 #icono-contacto {
     margin-top: 20px;
@@ -145,6 +184,13 @@ ul {
 }
 
 
+
+
+
+
+
+
+
 @media (min-width: 900px) {
     #card-img  {
 
@@ -171,6 +217,10 @@ ul {
     #equipo img {
         height: 300px;
         width: 300px;
+    }
+
+    div[class='card d-flex card-info shadow p-3 mb-5 bg-white rounded'] {
+        width: 400px;
     }
 
 
@@ -239,6 +289,10 @@ ul {
         width: 200px;
     }
 
+
+    div[class='card d-flex card-info shadow p-3 mb-5 bg-white rounded'] {
+        margin-top: 15px;
+    }
 
 
  }
