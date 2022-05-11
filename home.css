@@ -8,7 +8,7 @@ body {
 }
 
 .portada {
-    background-image: url(images/portada3.jpg);
+    background-image: url(images/PORTADA3.jpg);
     height: 700px;
     display: flex;
     flex-direction: column;
